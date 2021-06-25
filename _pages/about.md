@@ -9,20 +9,20 @@ ROAM is the research on animal movement group at James Cook University. Our grou
 ROAM was funded and is currently lead by Kyana Pike and Emily Webster, with the invigorating collaboration of ROAM members.  
 
 
-<img src="/images/people/kp.jpg" width="150" height="150">
-<img src="/images/people/ew.jpg" width="150" height="150">
+<img src="../images/people/kp.jpg" width="150" height="150">
+<img src="../images/people/ew.jpg" width="150" height="150">
 
 
 <table>
   <tr>
-    <td> <img src="/images/people/kp.jpg"  alt="Kyana Pike" width = "300" height = "300" ></td>
+    <td> <img src="../images/people/kp.jpg"  alt="Kyana Pike" width = "200" height = "200" ></td>
     <td>
         <b>Kyana Pike</b>
         <p>Kyana is a PhD candidate studying the effect of agriculture practices and infrastructure on the movement of giant tortoises in the Galapagos archipelago.</p>
     </td>
    </tr> 
    <tr>
-      <td><img src="/images/people/ew.jpg" alt="Emily Webster" width = "300" height = "300"></td>
+      <td><img src="../images/people/ew.jpg" alt="Emily Webster" width = "200" height = "200"></td>
       <td>
         <b>Emily Webster</b>
         <p>Emily is a PhD candidate researching the drivers of habitat use from green turtles in Queensland, Australia.</p>
