@@ -25,7 +25,7 @@ See you there!
 ## ROAM summary on space-use estimators
 ![]({{ site.baseurl }}/images/logo.png "fast.ai's logo")
 
-![]({{ site.baseurl }}/_posts/2021-06-08-space-use-estimators/roam_sue_00001.jpeg)
+![]({{ site.baseurl }}/images/2021-06-08-space-use-estimators/roam_sue_00001.jpeg)
 
 ![]({{ site.baseurl }}/_posts/2021-06-08-space-use-estimators/roam_sue_00002.jpeg)
 
