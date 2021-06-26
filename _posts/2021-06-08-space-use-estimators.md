@@ -24,9 +24,9 @@ See you there!
 
 ## ROAM summary on space-use estimators
 
-![](../_posts/2021-06-08-space-use-estimators/roam_sue_00001.jpeg)
+![]({{ site.baseurl }}/_posts/2021-06-08-space-use-estimators/roam_sue_00001.jpeg)
 
-![](/_posts/2021-06-08-space-use-estimators/roam_sue_00002.jpeg)
+![]({{ site.baseurl }}/_posts/2021-06-08-space-use-estimators/roam_sue_00002.jpeg)
 
 ![](2021-06-08-space-use-estimators/roam_sue_00003.jpeg)
 
