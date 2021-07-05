@@ -10,6 +10,8 @@ ROAM was funded and is currently lead by Kyana Pike and Emily Webster, with the 
 
 We meet every second Tuesday at 12 PM using a mix virtual and presential format.
 
+
+<h1>Who we are</h1>
 <table border="0">
   <tr>
     <td width="200"> <img src="../images/people/kp.jpg"  alt="Kyana Pike" width = "200" height = "200" ></td>
@@ -28,12 +30,9 @@ We meet every second Tuesday at 12 PM using a mix virtual and presential format.
 </table>
 
 
-
 <div class="container">
 <div class="row">
-<div class="col-sm">
-<h2>Members</h2>
-
+<h1>Contact us</h1>
 
 {% for member in site.data.members.members %}
 
@@ -56,8 +55,24 @@ We meet every second Tuesday at 12 PM using a mix virtual and presential format.
     </a>
     </li>
     {% endif %}
+    {% if member.email %}
+    <li>
+    <a style="text-decoration:none" href="{{ member.email }}" rel="nofollow noopener noreferrer">
+        <i class="fab fa-fw fa-envelope" aria-hidden="true"></i>
+        <span class="label">Email</span>
+    </a>
+    </li>
+    {% endif %}
+    {% if member.linkedin %}
+    <li>
+    <a style="text-decoration:none" href="{{ member.linkedin }}" rel="nofollow noopener noreferrer">
+        <i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
+        <span class="label">Linkedin</span>
+    </a>
+    </li>
+    {% endif %}
 </ul>
 {% endfor %}
 
 </div>
-
+</div>

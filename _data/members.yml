@@ -1,6 +1,11 @@
 members:
   - name: Emily Webster
-    github: CexyNature
+    email: emily.webster@test.com.au
   - name: Kyana Pike
+    twitter: KyanaPike
+  - name: César Herrera
     github: CexyNature
     twitter: CexyNature
+    linkedin: CexyNature
+
+
