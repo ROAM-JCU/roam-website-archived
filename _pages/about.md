@@ -62,7 +62,7 @@ We meet every second Tuesday at noon using a mix virtual and presential format.
         <i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
         <span class="label">Linkedin</span>
     </a>
-    {% endif %}
+    {% endif %}<br>
 </ul>
 {% endfor %}
 
