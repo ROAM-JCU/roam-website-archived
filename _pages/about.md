@@ -4,10 +4,11 @@ title: About Us
 permalink: /about/
 ---
 
-ROAM is the research on animal movement group at James Cook University. Our group is made of a diverse group of people across several disciplines, academic qualifications, gender, cultural backgrounds and expertises. We are interested in a wide variety of matters associated to movement of animals in a manifold of ecosystems and taxa, including crustaceans, fish, birds, mammals and reptiles.
+ROAM is the research on animal movement group at James Cook University. Our group is made of a diverse group of people across several disciplines, academic qualifications, gender, cultural backgrounds, and expertise. We are interested in a wide variety of matters associated to movement of animals in a manifold of ecosystems and taxa, including crustaceans, fish, birds, mammals, and reptiles.
 
-ROAM was funded and is currently lead by Kyana Pike and Emily Webster, with the invigorating collaboration of ROAM members.  
+ROAM was funded and is currently lead by Kyana Pike and Emily Webster, with the invigorating collaboration of ROAM members.
 
+We meet every second Tuesday at 12 PM using a mix virtual and presential format.
 
 <table border="0">
   <tr>
@@ -25,3 +26,38 @@ ROAM was funded and is currently lead by Kyana Pike and Emily Webster, with the 
       </td>
   </tr>
 </table>
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<h2>Members</h2>
+
+
+{% for member in site.data.members.members %}
+
+<ul class="social-icons" style="list-style: none;">
+    <li>
+        <b>{{ member.name }}</b>
+    </li>
+    {% if member.twitter %}
+    <li>
+    <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
+        <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+    </a>
+    </li>
+    {% endif %}
+    {% if member.github %}
+    <li>
+    <a style="text-decoration:none" href="https://github.com/{{ member.github }}" rel="nofollow noopener noreferrer">
+        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+        <span class="label">GitHub</span>
+    </a>
+    </li>
+    {% endif %}
+</ul>
+{% endfor %}
+
+</div>
+
