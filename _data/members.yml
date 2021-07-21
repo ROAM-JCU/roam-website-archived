@@ -1,12 +1,19 @@
 members:
   - name: Emily Webster
     email: emily.webster1@my.jcu.edu.au
+    linkedin: emily-webster-aaa829184
+    picture: ew.jpg
   - name: Kyana Pike
     twitter: KyanaPike
+    email: kyana.pike@my.jcu.edu.au
+    picture: kp.png
+- name: Saúl González
+    email: saul.gonzalezmurcia@my.jcu.edu.au
+    picture: sg.jpg
   - name: César Herrera
     github: CexyNature
     twitter: CexyNature
-    linkedin: CexyNature
     email: cesar.herrera1@my.jcu.edu.au
+    picture: caha.jpg
 
 
