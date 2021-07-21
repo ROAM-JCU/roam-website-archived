@@ -8,7 +8,7 @@ members:
     twitter: KyanaPike
     email: kyana.pike@my.jcu.edu.au
     picture: kp.png
-    description: Kyana is a PhD candidate at James Cook University researching the interaction between giant tortoises and agriculture in the Galapagos. Since 2018, Kyana has been collaborating with the Giant Tortoise Movement Ecology Programme (http://gianttortoise.org/en/) to leverage fine scale GPS tracking data to delve into temporal and spatial patterns of farm use by tortoises. She has used movement analysis tools such as occurrence distributions, home range estimators and integrated step selection functions to better understand tortoise use of farmland. These results can then help to provide evidence-based recommendations on how to balance the needs of tortoises and farmers in the Galapagos.
+    description: Kyana is a PhD candidate at James Cook University researching the interaction between giant tortoises and agriculture in the Galapagos. Since 2018, Kyana has been collaborating with the Giant Tortoise Movement Ecology Programme to leverage fine scale GPS tracking data to delve into temporal and spatial patterns of farm use by tortoises. She has used movement analysis tools such as occurrence distributions, home range estimators and integrated step selection functions to better understand tortoise use of farmland. These results can then help to provide evidence-based recommendations on how to balance the needs of tortoises and farmers in the Galapagos.
 - name: Saúl González
     email: saul.gonzalezmurcia@my.jcu.edu.au
     picture: sg.jpg
@@ -18,6 +18,6 @@ members:
     twitter: CexyNature
     email: cesar.herrera1@my.jcu.edu.au
     picture: caha.jpg
-    description:
+    description: empty
 
 
