@@ -39,7 +39,6 @@ We meet every second Tuesday at noon using a mix virtual and presential format.
 <ul class="social-icons" style="list-style: none;">
     <li>
         <b>{{ member.name }}</b>
-        <p>{{ member.description }}</p>
     </li>
     {% if member.twitter %}
     <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
