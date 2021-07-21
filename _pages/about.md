@@ -12,59 +12,41 @@ We meet every second Tuesday at noon using a mix virtual and presential format.
 
 
 <h1>Who we are</h1>
-<table border="0">
-  <tr>
-    <td width="200"> <img src="../images/people/kp.png"  alt="Kyana Pike" width = "200" height = "200" ></td>
-    <td width="300">
-        <b style="color:#4a4e69;font-size:25px;">Kyana Pike</b>
-        <p>Kyana is a PhD candidate studying the effect of agriculture practices and infrastructure on the movement of giant tortoises in the Galapagos archipelago.</p>
-    </td>
-   </tr> 
-   <tr>
-      <td width="200"><img src="../images/people/ew.jpg" alt="Emily Webster" width = "200" height = "200"></td>
-      <td width="300">
-        <b style="color:#4a4e69;font-size:25px;">Emily Webster</b>
-        <p>Emily is a PhD candidate researching the drivers of habitat use from green turtles in Queensland, Australia.</p>
-      </td>
-  </tr>
-</table>
 
-
-<div class="container">
-<div class="row">
-<h1>Contact us</h1>
-
-{% for member in site.data.members.members %}
-
-<ul class="social-icons" style="list-style: none;">
-    <li>
-        <b>{{ member.name }}</b>
-    </li>
-    {% if member.twitter %}
-    <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
-        <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
-    </a>
-    {% endif %}
-    {% if member.github %}
-    <a style="text-decoration:none" href="https://github.com/{{ member.github }}" rel="nofollow noopener noreferrer">
-        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
-        <span class="label">GitHub</span>
-    </a>
-    {% endif %}
-    {% if member.email %}
-    <a style="text-decoration:none" href="mailto:{{ member.email }}" rel="nofollow noopener noreferrer">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <span class="label">Email</span>
-    </a>
-    {% endif %}
-    {% if member.linkedin %}
-    <a style="text-decoration:none" href="{{ member.linkedin }}" rel="nofollow noopener noreferrer">
-        <i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
-        <span class="label">Linkedin</span>
-    </a>
-    {% endif %}<br>
-</ul>
-{% endfor %}
-
-</div>
+<div style="clear: both;">
+  {% for member in site.data.members.members %}
+  <div style="padding-top: 5px;padding-bottom: 20px;float:left; margin-right 2em; padding-right:15px; padding-left:15px;margin-right:auto;margin-left:auto">
+    <img src="../images/people/{{ member.picture }}" alt="" width = "300" height = "300">
+  </div>
+  <div style="padding-bottom: 20px; display: flex;flex-wrap: wrap;">
+    <h3>{{ member.name }}</h3>
+    <p style="font-size:14px;">{{ member.description }}</p>
+    <ul class="social-icons" style="list-style: none;">
+      {% if member.twitter %}
+      <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
+          <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+          <span class="label">Twitter</span>
+      </a>
+      {% endif %}
+      {% if member.github %}
+      <a style="text-decoration:none" href="https://github.com/{{ member.github }}" rel="nofollow noopener noreferrer">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+          <span class="label">GitHub</span>
+      </a>
+      {% endif %}
+      {% if member.email %}
+      <a style="text-decoration:none" href="mailto:{{ member.email }}" rel="nofollow noopener noreferrer">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span class="label">Email</span>
+      </a>
+      {% endif %}
+      {% if member.linkedin %}
+      <a style="text-decoration:none" href="https://linkedin.com/in/{{ member.linkedin }}" rel="nofollow noopener noreferrer">
+          <i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
+          <span class="label">Linkedin</span>
+      </a>
+      {% endif %}<br>
+    </ul>
+  </div>
+  {% endfor %}
 </div>

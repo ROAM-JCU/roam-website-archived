@@ -3,17 +3,21 @@ members:
     email: emily.webster1@my.jcu.edu.au
     linkedin: emily-webster-aaa829184
     picture: ew.jpg
+    description: Emily is in the second year of her PhD at James Cook University. She is interested in behaviour and survival of wildlife living in human-dominated land and seascapes. In her Honours research, she studied colonially-breeding wetland birds with GPS-GSM telemetry. She examined their foraging strategies and reproductive success in relation to environmental flows delivered from upstream dams and weirs. Her PhD is part of a long-term mutli-disciplinary collaborative monitoring program. She is working on increasing understanding of fine-scale habitat use by resident green turtles (Chelonia mydas) in industrial inshore foraging grounds with satellite telemetry. She hopes that this information will help to elucidate the risks of human-turtle interactions and inform management options for this protected species.
   - name: Kyana Pike
     twitter: KyanaPike
     email: kyana.pike@my.jcu.edu.au
     picture: kp.png
-- name: Saúl González
+    description: Kyana is a PhD candidate at James Cook University researching the interaction between giant tortoises and agriculture in the Galapagos. Since 2018, Kyana has been collaborating with the Giant Tortoise Movement Ecology Programme (http://gianttortoise.org/en/) to leverage fine scale GPS tracking data to delve into temporal and spatial patterns of farm use by tortoises. She has used movement analysis tools such as occurrence distributions, home range estimators and integrated step selection functions to better understand tortoise use of farmland. These results can then help to provide evidence-based recommendations on how to balance the needs of tortoises and farmers in the Galapagos.
+  - name: Saúl González
     email: saul.gonzalezmurcia@my.jcu.edu.au
     picture: sg.jpg
+    description: Saúl González Murcia is conducting his PhD at James Cook University studying ecological aspects of sponges and corals and how those interactions affect reef associated fishes. As parallel projects he is assessing movement patterns of intertidal and freshwater fishes in El Salvador. Fishes are a central interest in his research and currently he is trying to determine small scale and daily movement patterns for resident and opportunist intertidal fishes. In freshwater ecosystems his research aims to determine movement patterns of predator fishes and their preys and potential responses that freshwater fishes could have on their movement pattern in the presence of introduced species.
   - name: César Herrera
     github: CexyNature
     twitter: CexyNature
     email: cesar.herrera1@my.jcu.edu.au
     picture: caha.jpg
+    description: My area of interests are spatial ecology, animal movement, biodiversity patterns, ecosystem functioning, probabilistic programming, and Computer Vision.
 
 
