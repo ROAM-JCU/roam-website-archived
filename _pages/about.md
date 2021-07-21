@@ -14,7 +14,7 @@ We meet every second Tuesday at noon using a mix virtual and presential format.
 <h1>Who we are</h1>
 <table border="0">
   <tr>
-    <td width="200"> <img src="../images/people/kp.jpg"  alt="Kyana Pike" width = "200" height = "200" ></td>
+    <td width="200"> <img src="../images/people/kp.png"  alt="Kyana Pike" width = "200" height = "200" ></td>
     <td width="300">
         <b style="color:#4a4e69;font-size:25px;">Kyana Pike</b>
         <p>Kyana is a PhD candidate studying the effect of agriculture practices and infrastructure on the movement of giant tortoises in the Galapagos archipelago.</p>
@@ -39,6 +39,7 @@ We meet every second Tuesday at noon using a mix virtual and presential format.
 <ul class="social-icons" style="list-style: none;">
     <li>
         <b>{{ member.name }}</b>
+        <p>{{ member.description }}</p>
     </li>
     {% if member.twitter %}
     <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
