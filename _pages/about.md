@@ -13,40 +13,64 @@ We meet every second Tuesday at noon using a mix virtual and presential format.
 
 <h1>Who we are</h1>
 
-<div style="clear: both;">
+<div>
   {% for member in site.data.members.members %}
-  <div style="padding-top: 5px;padding-bottom: 20px;float:left; margin-right 2em; padding-right:15px; padding-left:15px;margin-right:auto;margin-left:auto">
-    <img src="../images/people/{{ member.picture }}" alt="" width = "300" height = "300">
-  </div>
-  <div style="padding-bottom: 20px; display: flex;flex-wrap: wrap;">
-    <h3>{{ member.name }}</h3>
-    <p style="font-size:14px;">{{ member.description }}</p>
-    <ul class="social-icons" style="list-style: none;">
-      {% if member.twitter %}
-      <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
+  <div style="display: flex;
+              flex-wrap: wrap;
+              padding: 20px">
+    <div style="width: 50%;
+                padding-right:15px;
+                padding-left:15px;
+                margin-right:auto;
+                margin-left:auto;
+                float:left">
+      <img style="max-width: 300px;
+                  max-height: 300px;
+                  width: 100%;
+                  height: auto;
+                  float:left;" src="../images/people/{{ member.picture }}" alt="" width="300" height="300">
+    </div>
+    <div style="width: 50%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                justify-content: center">
+      <h3 style="margin-top: 0">{{ member.name }}</h3>
+      <ul class="social-icons" style="margin-right: auto;
+                                      margin-left: auto">  
+        {% if member.twitter %}
+        <a style="text-decoration:none" href="https://twitter.com/{{ member.twitter }}" rel="nofollow noopener noreferrer">
           <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
           <span class="label">Twitter</span>
-      </a>
-      {% endif %}
-      {% if member.github %}
-      <a style="text-decoration:none" href="https://github.com/{{ member.github }}" rel="nofollow noopener noreferrer">
+        </a>
+        {% endif %}
+        {% if member.github %}
+        <a style="text-decoration:none" href="https://github.com/{{ member.github }}" rel="nofollow noopener noreferrer">
           <i class="fab fa-fw fa-github" aria-hidden="true"></i>
           <span class="label">GitHub</span>
-      </a>
-      {% endif %}
-      {% if member.email %}
-      <a style="text-decoration:none" href="mailto:{{ member.email }}" rel="nofollow noopener noreferrer">
+        </a>
+        {% endif %}
+        {% if member.email %}
+        <a style="text-decoration:none" href="mailto:{{ member.email }}" rel="nofollow noopener noreferrer">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           <span class="label">Email</span>
-      </a>
-      {% endif %}
-      {% if member.linkedin %}
-      <a style="text-decoration:none" href="https://linkedin.com/in/{{ member.linkedin }}" rel="nofollow noopener noreferrer">
+        </a>
+        {% endif %}
+        {% if member.linkedin %}
+        <a style="text-decoration:none" href="https://linkedin.com/in/{{ member.linkedin }}" rel="nofollow noopener noreferrer">
           <i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
           <span class="label">Linkedin</span>
-      </a>
-      {% endif %}<br>
-    </ul>
+        </a>
+        {% endif %}
+      </ul>
+      <p style="font-size:14px;
+                text-align: justify;
+                text-justify: inter-word;
+                margin-right: auto;
+                margin-left: auto">{{ member.description }}</p>
+    </div>
   </div>
+  <br>  
   {% endfor %}
 </div>
