@@ -25,5 +25,8 @@ members:
     email: cesar.herrera1@my.jcu.edu.au
     picture: ch.jpg
     description: César's interests are spatial ecology, animal movement, biodiversity patterns, ecosystem functioning, probabilistic programming, and Computer Vision.
-
+  - name: Michael Taylor
+    email: michael.taylor@research.uwa.edu.au
+    picture: mt.png
+    description: Some cool facts about Mike
 
