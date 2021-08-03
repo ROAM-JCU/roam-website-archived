@@ -1,5 +1,5 @@
-![](https://github.com/ROAM-JCU/roam-website/workflows/CI/badge.svg) 
-![](https://github.com/ROAM-JCU/roam-website/workflows/GH-Pages%20Status/badge.svg) 
+[![](https://github.com/ROAM-JCU/roam-website/workflows/CI/badge.svg)](https://github.com/ROAM-JCU/roam-website/actions/workflows/ci.yaml)
+[![](https://github.com/ROAM-JCU/roam-website/workflows/GH-Pages%20Status/badge.svg)](https://github.com/ROAM-JCU/roam-website/actions/workflows/gh-page.yaml)
 
 # ROAM website repository
 
