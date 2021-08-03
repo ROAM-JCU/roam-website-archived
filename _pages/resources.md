@@ -4,13 +4,13 @@ title: Resources
 permalink: /resources/
 ---
 
-# Websites
+# ROAM summaries
 
-Check this cool [website](https://www.movebank.org).
+All ROAM summaries can be found [here](https://github.com/ROAM-JCU/roam-summaries)
 
-# Analytical tools
+# Code chunks
 
 Cool Python/R package for awesome movement visualizations.
 
-# See ROAM cheat-sheets
+
 
