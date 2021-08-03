@@ -5,6 +5,8 @@ description: A minimal example of using markdown with fastpages.
 categories: [markdown]
 title: An Example Markdown Post
 ---
+
+
 # Example Markdown Post
 
 ## Basic setup
@@ -14,11 +16,6 @@ Jekyll requires blog post files to be named according to the following format:
 `data <- read.csv("data.csv")`
 
 `YEAR-MONTH-DAY-filename.md`
-
-
-```
-
-```
 
 *italics*
 
