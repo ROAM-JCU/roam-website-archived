@@ -8,7 +8,7 @@ ROAM is the research on animal movement group at James Cook University. Our grou
 
 ROAM was founded and is currently lead by Kyana Pike and Emily Webster, with the invigorating collaboration of ROAM members.
 
-We meet every second Tuesday at noon using a mix virtual and presential format.
+We meet every second Tuesday at noon using a mixed virtual and presential format.
 
 
 <h1>Who we are</h1>
