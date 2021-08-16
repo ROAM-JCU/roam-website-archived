@@ -4,11 +4,11 @@ title: About Us
 permalink: /about/
 ---
 
-ROAM is the research on animal movement group at James Cook University. Our group is made of a diverse group of people across several disciplines, academic qualifications, gender, cultural backgrounds, and expertise. We are interested in a wide variety of matters associated to movement of animals in a manifold of ecosystems and taxa, including crustaceans, fish, birds, mammals, and reptiles.
+ROAM is the research of animal movement group at James Cook University. Our group is made up of people across diverse disciplines, academic qualifications, gender, cultural backgrounds, and expertise. We are interested in a wide variety of animal movement topics in a manifold of ecosystems and taxa, including crustaceans, fish, birds, mammals, and reptiles.
 
-ROAM was founded and is currently lead by Kyana Pike and Emily Webster, with the invigorating collaboration of ROAM members.
+ROAM was founded and is currently led by Kyana Pike and Emily Webster, with the invigorating collaboration of ROAM members.
 
-We meet every second Tuesday at noon using a mixed virtual and presential format.
+We meet every second Tuesday at noon using a mixed virtual and in-person format.
 
 
 <h1>Who we are</h1>
