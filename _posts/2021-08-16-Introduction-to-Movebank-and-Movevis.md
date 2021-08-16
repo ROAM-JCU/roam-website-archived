@@ -1,5 +1,10 @@
-# Introduction to Movebank and MoveVis
-
+---
+toc: true
+layout: post
+description: A summary of our Movebank MoveVis session.
+categories: [tools]
+title: Introduction to Movebank and MoveVis
+---
 
 In our fourth meeting, Kyana introduced [Movebank](https://www.movebank.org/cms/movebank-main) - a free online database and platform for analysing animal movement data. We learnt how Movebank can be used to manage and archive our data, while giving users have the choice to make their data publicly available or not. Kyana showed us how to view and download publicly available data and introduced some of the analysis tools that are available on the online platform.
 
