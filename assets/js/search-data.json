@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Movebank Movevis",
+            "title": "Introduction To Movebank Movevis",
             "content": "Introduction to Movebank and MoveVis . In our fourth meeting, Kyana introduced Movebank - a free online database and platform for analysing animal movement data. We learnt how Movebank can be used to manage and archive our data, while giving users have the choice to make their data publicly available or not. Kyana showed us how to view and download publicly available data and introduced some of the analysis tools that are available on the online platform. . In the second half of the session Emily demonstrated an example of MoveVis in R, a package for creating animations from tracking data. MoveVis is a visualisation tool that converts movement data into ggplot2 frames that can be rendered into a moving gif or video. .",
-            "url": "https://roam-jcu.github.io/roam-website/2021/08/16/Movebank-Movevis.html",
-            "relUrl": "/2021/08/16/Movebank-Movevis.html",
+            "url": "https://roam-jcu.github.io/roam-website/2021/08/16/Introduction-to-Movebank-Movevis.html",
+            "relUrl": "/2021/08/16/Introduction-to-Movebank-Movevis.html",
             "date": " • Aug 16, 2021"
         }
         
