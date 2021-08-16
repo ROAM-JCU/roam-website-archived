@@ -36,3 +36,12 @@ members:
     instagram: nic.lubitz
     picture: nl.png
     description: Nicolas works on movement drivers in animals, using sharks and rays as a case study. He is developing a context-based framework to analysing animal movement data that considers individual and geographical variability in movement behaviour. For example, some individuals of a species make large-scale movements while others do not. While this appears to add a lot of complexity to the question at hand, it actually can help us tease apart why movement occurs in the first place. He is tagging bull sharks in Australia, South Africa and Florida with acoustic and satellite transmitters to track their movements and identify how environmental factors, prey availability, individual reproductive behaviour and genetics influence movement strategies.
+  - name: Michelle Perez
+    email: michelle.perez@my.jcu.edu.au
+    picture: mp.jpg
+    description: Michelle recently graduated from James Cook University with a Master of Science (Professional) in Marine Biology. In this program she undertook a minor research project investigating the post-nesting migration patterns of loggerhead turtles from Queensland rookeries using GPS tracking and flipper tag (capture-mark-recapture) data. She is now a Research Worker with JCU examining the spatial use of inter-nesting green turtles at Raine Island in the northern Great Barrier Reef (nGBR). This work includes the use of home range estimators and analysing fine-scale movement patterns to better understand the relationships between movement, habitat use, and reproductive success of the endangered nGBR stock of green turtles. 
+  - name: Kevin Crook
+    twitter: kevcrook17
+    url: https://saveourseas.com/project/on-the-ray-dar/
+    picture: kc.jpg
+    description: Kevin’s research focuses on understanding the consequences of fine-scale animal movement and behaviour for ecosystem function. To do this, he has developed novel sampling methods, pairing active acoustic telemetry with drone tracking to place behaviour observations within the context of diurnal movement patterns. Using stingrays on coastal sandflats as a model study system, his research has identified fine-scale foraging habitat partitioning among sympatric stingrays that would otherwise have been hidden using habitat use estimates from traditional tracking methods alone. Although his research focuses primarily on stingrays, Kevin is also involved in movement studies on estuarine fish and sharks.  
