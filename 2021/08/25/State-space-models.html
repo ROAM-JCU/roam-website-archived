@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>State Space Models | ROAM</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="State Space Models" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="State-space Models (SSMs)" />
+<meta property="og:description" content="State-space Models (SSMs)" />
+<link rel="canonical" href="https://roam-jcu.github.io/roam-website/2021/08/25/State-space-models.html" />
+<meta property="og:url" content="https://roam-jcu.github.io/roam-website/2021/08/25/State-space-models.html" />
+<meta property="og:site_name" content="ROAM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-25T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://roam-jcu.github.io/roam-website/2021/08/25/State-space-models.html","@type":"BlogPosting","headline":"State Space Models","dateModified":"2021-08-25T00:00:00-05:00","datePublished":"2021-08-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://roam-jcu.github.io/roam-website/2021/08/25/State-space-models.html"},"description":"State-space Models (SSMs)","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/roam-website/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://roam-jcu.github.io/roam-website/feed.xml" title="ROAM" /><link rel="shortcut icon" type="image/x-icon" href="/roam-website/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/roam-website/">ROAM</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/roam-website/about/">About Us</a><a class="page-link" href="/roam-website/featured_data/">Featured Data</a><a class="page-link" href="/roam-website/resources/">Resources</a><a class="page-link" href="/roam-website/search/">Search</a><a class="page-link" href="/roam-website/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">State Space Models</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-08-25T00:00:00-05:00" itemprop="datePublished">
+        Aug 25, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="state-space-models-ssms">State-space Models (SSMs)</h1>
+
+<p>State-space models (SSMs) are useful in better predicting “true” values of a time series. They work by using simulations to make estimates through process and measurement equations. They are useful for inferring better tracks and hidden processes (i.e. behaviour), particularly when using less accurate data (e.g. Argos locations) and/or in the marine environment. A major limitation of using them is that they are hard to validate. Dr. Marie Auger-Méthé has recorded a helpful seminar (<a href="https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiS5xzcmhpW0&amp;data=04%7C01%7Cemily.webster1%40my.jcu.edu.au%7C0bf705ab6c6d4f2167b208d9637f4cc3%7C2eba4cf8af764db3bcaf81b5592535ef%7C0%7C0%7C637650220668582269%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=jBb8lmO5RWzmG8rZJKmmRTZA075GiTda6s3Go5Yeinc%3D&amp;reserved=0">https://www.youtube.com/watch?v=iS5xzcmhpW0</a>) and written a review that is especially targeted towards students wanting to use SSMs: “A guide to state-space modeling of ecological time series” (Auger-Méthé et al. 2021, <a href="https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Farxiv.org%2Fabs%2F2002.02001&amp;data=04%7C01%7Cemily.webster1%40my.jcu.edu.au%7C0bf705ab6c6d4f2167b208d9637f4cc3%7C2eba4cf8af764db3bcaf81b5592535ef%7C0%7C0%7C637650220668587247%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=0u%2Bypq6ympXAUGlHUTNHs5d3C2gNaFgYb38MnR7yhZ0%3D&amp;reserved=0">https://arxiv.org/abs/2002.02001</a>). There are R tutorials included on how to fit SSMs and validate these models (our tutorial worked through Appendix 1).</p>
+
+  </div><a class="u-url" href="/roam-website/2021/08/25/State-space-models.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/roam-website/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/roam-website/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/roam-website/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Research on Animal Movement - A graduate group from James Cook University</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/ROAM-JCU" title="ROAM-JCU"><svg class="svg-icon grey"><use xlink:href="/roam-website/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
