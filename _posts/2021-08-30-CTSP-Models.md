@@ -1,5 +1,3 @@
-# CTSP models and variograms
-
 ---
 toc: true
 layout: post
