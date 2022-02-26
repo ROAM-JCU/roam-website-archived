@@ -2,39 +2,6 @@
   
     
         "post0": {
-            "title": "State Space Models",
-            "content": "State-space models (SSMs) are useful in better predicting “true” values of a time series. They work by using simulations to make estimates through process and measurement equations. They are useful for inferring better tracks and hidden processes (i.e. behaviour), particularly when using less accurate data (e.g. Argos locations) and/or in the marine environment. A major limitation of using them is that they are hard to validate. Dr. Marie Auger-Méthé has recorded a helpful seminar (https://www.youtube.com/watch?v=iS5xzcmhpW0) and written a review that is especially targeted towards students wanting to use SSMs: “A guide to state-space modeling of ecological time series” (Auger-Méthé et al. 2021, https://arxiv.org/abs/2002.02001). There are R tutorials included on how to fit SSMs and validate these models (our tutorial worked through Appendix 1). .",
-            "url": "https://roam-jcu.github.io/roam-website/2021/08/25/State-space-models.html",
-            "relUrl": "/2021/08/25/State-space-models.html",
-            "date": " • Aug 25, 2021"
-        }
-        
-    
-  
-    
-        ,"post1": {
-            "title": "Discussion Of Movement Ecology Framework Paper",
-            "content": "Over the last decades the study of movement ecology has faced many challenges, including the separation of animal movement research into taxonomic groups, lack of synthesis from different geographical regions and methodologies and sampling designs. Additionally, a unified framework for movement ecology studies was missing. With the aim to unify movement studies under a common conceptual framework, Nathan et al. 2008 proposed a movement ecology paradigm based on principle components of animal and plant movement. This includes how the organism moves, when and towards what destination the movement occurs, why the organism moves and the interaction of these components. Establishing a unified theoretical framework for animal movement studies, that synthesizes different aspects of individual movement and general theory of animal movement research has resulted in a well-known and well-cited manuscript which provides a great baseline for anyone interested in animal movement ecology.  . R. Nathan, W.M. Getz, E. Revilla, M. Holyoak, R. Kadmon, D. Saltz, P.E. Smouse A movement ecology paradigm for unifying organismal movement research Proc. Natl. Acad. Sci., 105 (49) (2008), pp. 19052-19059 .",
-            "url": "https://roam-jcu.github.io/roam-website/2021/08/25/Discussion-of-movement-ecology-framework-paper.html",
-            "relUrl": "/2021/08/25/Discussion-of-movement-ecology-framework-paper.html",
-            "date": " • Aug 25, 2021"
-        }
-        
-    
-  
-    
-        ,"post2": {
-            "title": "Introduction to Movebank and MoveVis",
-            "content": "In our fourth meeting, Kyana introduced Movebank - a free online database and platform for analysing animal movement data. We learnt how Movebank can be used to manage and archive our data, while giving users have the choice to make their data publicly available or not. Kyana showed us how to view and download publicly available data and introduced some of the analysis tools that are available on the online platform. . In the second half of the session Emily demonstrated an example of MoveVis in R, a package for creating animations from tracking data. MoveVis is a visualisation tool that converts movement data into ggplot2 frames that can be rendered into a moving gif or video. .",
-            "url": "https://roam-jcu.github.io/roam-website/tools/2021/08/16/Introduction-to-Movebank-and-Movevis.html",
-            "relUrl": "/tools/2021/08/16/Introduction-to-Movebank-and-Movevis.html",
-            "date": " • Aug 16, 2021"
-        }
-        
-    
-  
-    
-        ,"post3": {
             "title": "Paranormal Pigeons",
             "content": "Meeting 15 – (Documentary screening) Paranormal Pigeons: Why do Birds Migrate by Real Wild . . An animal’s ability to navigate long distances and revisit exact locations is a remarkable thing. For this meeting we dove into the world of homing pigeons to try to learn more about this unsolved mystery. This charming documentary going on comedy follows four main schools of thought behind the pigeons incredible homing ability. The documentary features a rag tag bunch of scientists, pigeon fanciers and a mysterious egg that continues to slowly crack, much like some of the characters in the film. We are presented with four competing hypothesis to explain pigeon navigation: a) pigeons find their way by olfactory cues, b) sight and landmarks is what helps pigeons find their way, c) pigeons have an ability to detect Earth’s magnetic fields and navigate via some kind of internal compass or d) the real explanation is ‘morphic resonance’ a sort of voodoo sixth sense that animals have for their homes that acts like an elastic band that brings them back to places they love. To find out which hypothesis stacks up the most and who gets egg on their face you can watch the documentary here and marvel at their accents and admiration for pigeons: . https://www.youtube.com/watch?v=dfM8aN7RDNc .",
             "url": "https://roam-jcu.github.io/roam-website/2021/08/10/Paranormal-Pigeons.html",
@@ -45,7 +12,7 @@
     
   
     
-        ,"post4": {
+        ,"post1": {
             "title": "How To Create A Post Using Word",
             "content": "This is a minimum example on creating a post entry using Microsoft Word. Please notice that when using a Word document there is less flexibility than when using a Markdown document or a Jupyter Notebook. . Please remember to use the name convention for all posts. This means you Word document should be named: | YYYY-MM-DD-title-of-your-post.docx . You can include titles and links in your document. | A title heading 1 . A title heading 2 . You can also include links. . .",
             "url": "https://roam-jcu.github.io/roam-website/2021/08/03/how-to-create-a-post-using-word.html",
@@ -56,7 +23,7 @@
     
   
     
-        ,"post5": {
+        ,"post2": {
             "title": "How To Update The Website",
             "content": "How to update the ROAM-JCU website . Today Ces taught us how to update the website using github . Need to know . To update the member list . _data folder . Members.yml . | Every new member indicated with [tab][-][“name:”] etc. . | Fill in details with each line . | To modify a file, pencil icon - text editor &gt; commit . | . | Images folder . People (pictures of everyone) &gt; Add files&gt; commit . | . | .   .   . To enter entries/posts . Add new entries with .md, word, or jupiter notebook file . Name convention for files “YYYY-mm-dd-the-title.extension” . | If word, add file to _word folder . | If notebook, add to _notebooks folder . | If markdown, add to _posts folder . | . | . .",
             "url": "https://roam-jcu.github.io/roam-website/2021/08/03/How-to-update-the-website.html",
@@ -67,18 +34,18 @@
     
   
     
-        ,"post6": {
+        ,"post3": {
             "title": "Implications of selecting home range estimators",
             "content": "The process of using two different home range estimators on the same dataset, as we did in our last session, highlighted the real possibility of obtaining different results, and therefore different conclusions for the same data. This raised the important question about the consequences of using different methods when applying these estimates to decision making, for instance conservation. To continue the discussion on this idea, we asked you to read the paper by the authors of the AKDE function and CTMM package who delve into this topic with a more in-depth comparison of this situation and what that might mean on the ground. . Noonan, M. J., Tucker, M. A., Fleming, C. H., Akre, T. S., Alberts, S. C., Ali, A. H., … &amp; Calabrese, J. M. (2019). A comprehensive analysis of autocorrelation and bias in home range estimation. Ecological Monographs, 89(2), e01344. .",
-            "url": "https://roam-jcu.github.io/roam-website/space-use/2021/07/06/implications-on-space-use-analysis-selection.html",
-            "relUrl": "/space-use/2021/07/06/implications-on-space-use-analysis-selection.html",
-            "date": " • Jul 6, 2021"
+            "url": "https://roam-jcu.github.io/roam-website/space-use/2021/07/13/implications-on-space-use-analysis-selection.html",
+            "relUrl": "/space-use/2021/07/13/implications-on-space-use-analysis-selection.html",
+            "date": " • Jul 13, 2021"
         }
         
     
   
     
-        ,"post7": {
+        ,"post4": {
             "title": "Diving into 3rd-gen space use estimators",
             "content": "A corollary from our last meeting is that many methods for estimating space use are static and do not account for spatial or temporal autocorrelation in the data. For this reason, we were interested in learning a bit more about two of the third-generation space use estimators: the Movement-based Kernel Density Estimate (MKDE) and the Autocorrelated Kernel Density Estimate (AKDE). Both are based on similar principles of applying a movement model to our location data as the first step in generating a utilization distribution. In this meeting we worked through an example of each of these with Kyana’s tortoise data in R. .",
             "url": "https://roam-jcu.github.io/roam-website/space-use/2021/06/22/diving-into-3rd-gen-space-use-estimators.html",
@@ -89,12 +56,45 @@
     
   
     
-        ,"post8": {
+        ,"post5": {
             "title": "Space-use estimators",
             "content": "Thank you to everyone who presented at our meeting on space-use estimators. . We have compiled the presentations and now have this lovely guide to a few of the common methods (below). . One takeaway from the meeting is that many of these methods are static and do not account for spatial or temporal autocorrelation in the data. . For this reason, we are interested in learning a bit more about two of the third-generation space use estimators: the Movement-based Kernel Density Estimate (MKDE) and the Autocorrelated Kernel Density Estimate (AKDE). . Both of these are based on similar principles of applying a movement model to our location data as the first step in generating a utilization distribution. . For the next meeting we are going to work through an example of each of these with Kyana’s tortoise data in R. . Please bring your laptops with R installed, your lunch and your thinking caps. . See you there! . ROAM summary on space-use estimators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
             "url": "https://roam-jcu.github.io/roam-website/space-use/2021/06/08/space-use-estimators.html",
             "relUrl": "/space-use/2021/06/08/space-use-estimators.html",
             "date": " • Jun 8, 2021"
+        }
+        
+    
+  
+    
+        ,"post6": {
+            "title": "State Space Models",
+            "content": "State-space models (SSMs) are useful in better predicting “true” values of a time series. They work by using simulations to make estimates through process and measurement equations. They are useful for inferring better tracks and hidden processes (i.e. behaviour), particularly when using less accurate data (e.g. Argos locations) and/or in the marine environment. A major limitation of using them is that they are hard to validate. Dr. Marie Auger-Méthé has recorded a helpful seminar (https://www.youtube.com/watch?v=iS5xzcmhpW0) and written a review that is especially targeted towards students wanting to use SSMs: “A guide to state-space modeling of ecological time series” (Auger-Méthé et al. 2021, https://arxiv.org/abs/2002.02001). There are R tutorials included on how to fit SSMs and validate these models (our tutorial worked through Appendix 1). .",
+            "url": "https://roam-jcu.github.io/roam-website/2021/05/11/State-space-models.html",
+            "relUrl": "/2021/05/11/State-space-models.html",
+            "date": " • May 11, 2021"
+        }
+        
+    
+  
+    
+        ,"post7": {
+            "title": "Discussion Of Movement Ecology Framework Paper",
+            "content": "Over the last decades the study of movement ecology has faced many challenges, including the separation of animal movement research into taxonomic groups, lack of synthesis from different geographical regions and methodologies and sampling designs. Additionally, a unified framework for movement ecology studies was missing. With the aim to unify movement studies under a common conceptual framework, Nathan et al. 2008 proposed a movement ecology paradigm based on principle components of animal and plant movement. This includes how the organism moves, when and towards what destination the movement occurs, why the organism moves and the interaction of these components. Establishing a unified theoretical framework for animal movement studies, that synthesizes different aspects of individual movement and general theory of animal movement research has resulted in a well-known and well-cited manuscript which provides a great baseline for anyone interested in animal movement ecology.  . R. Nathan, W.M. Getz, E. Revilla, M. Holyoak, R. Kadmon, D. Saltz, P.E. Smouse A movement ecology paradigm for unifying organismal movement research Proc. Natl. Acad. Sci., 105 (49) (2008), pp. 19052-19059 .",
+            "url": "https://roam-jcu.github.io/roam-website/2021/03/23/Discussion-of-movement-ecology-framework-paper.html",
+            "relUrl": "/2021/03/23/Discussion-of-movement-ecology-framework-paper.html",
+            "date": " • Mar 23, 2021"
+        }
+        
+    
+  
+    
+        ,"post8": {
+            "title": "Introduction to Movebank and MoveVis",
+            "content": "In our fourth meeting, Kyana introduced Movebank - a free online database and platform for analysing animal movement data. We learnt how Movebank can be used to manage and archive our data, while giving users have the choice to make their data publicly available or not. Kyana showed us how to view and download publicly available data and introduced some of the analysis tools that are available on the online platform. . In the second half of the session Emily demonstrated an example of MoveVis in R, a package for creating animations from tracking data. MoveVis is a visualisation tool that converts movement data into ggplot2 frames that can be rendered into a moving gif or video. .",
+            "url": "https://roam-jcu.github.io/roam-website/tools/2021/03/16/Introduction-to-Movebank-and-Movevis.html",
+            "relUrl": "/tools/2021/03/16/Introduction-to-Movebank-and-Movevis.html",
+            "date": " • Mar 16, 2021"
         }
         
     
