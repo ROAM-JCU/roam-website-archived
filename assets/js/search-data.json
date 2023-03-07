@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Git and GitHub",
+            "content": "Git and GitHub . Wytamma gave a talk about git and github. Here are the slides git-github-roam.pdf. . GitHub is a web-based platform for version control and collaborative software development. It provides a way for multiple developers to work together on a project, keeping track of changes and collaborating in a more organized and efficient way. . Here are the steps to using GitHub for collaboration: . Create a GitHub account: If you haven’t done so already, create a GitHub account at github.com. | Create a repository: A repository is where your project will live on GitHub. To create a new repository, click on the “New” button on the GitHub home page and fill in the necessary information, such as the name and description of the repository. | Invite collaborators: Once you’ve created a repository, you can invite other users to collaborate on the project. To do this, go to the repository’s settings page and click on the “Collaborators” tab. Enter the GitHub usernames of the people you want to invite, and they will receive an email notification. | Clone the repository: To work on the project, you will need to clone the repository to your local machine. To do this, go to the repository’s page on GitHub and click on the “Code” button. Copy the HTTPS or SSH URL and use it to clone the repository using Git on your local machine. | Make changes: Once you’ve cloned the repository, you can make changes to the project files. Use Git to track your changes and commit them to the repository as you work. | Push changes: Once you’ve made changes to the project, push them to the GitHub repository using Git. This will upload your changes to GitHub and make them available to your collaborators. | Review changes: When one of your collaborators makes changes to the project, you can review them using GitHub’s pull request feature. This allows you to see the changes, leave comments, and merge them into the main branch of the repository if you approve. | Resolve conflicts: If multiple people make changes to the same file at the same time, there may be conflicts that need to be resolved. GitHub provides tools to help you resolve conflicts and merge changes together. | Overall, GitHub is a powerful tool for collaborative software development. By following these steps, you can work more efficiently with your team and ensure that everyone is on the same page when it comes to project changes and updates. .",
+            "url": "https://roam-jcu.github.io/roam-website/talk/2023/03/07/git-and-github.html",
+            "relUrl": "/talk/2023/03/07/git-and-github.html",
+            "date": " • Mar 7, 2023"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Guest speaker - Dr Takahiro Shimada and his SDLfilter R package",
             "content": "Today we welcomed Dr Takahiro (Taka) Shimada, Principal Conservation Officer, Queensland Government, Australia. . Taka gave us a fascinating presentation about the challenges of estimating the optimum sample size when assessing the area used by animals. Studies using tracking devices such as GPS and acoustic tags, are often constrained by the elevated costs (time and money) of these technologies. For this reason, only a small fraction of the population can be tracked. This raises the question about to what extent the tracks of a few individuals can be representative of the whole population. . With this challenge in mind, Taka and his collaborators developed a probabilistic novel approach for evaluating the adequacy of sample size (i.e. number of tracked animals) when estimating animals’ spatial distribution. They proposed to use probabilities to calculate overlap between an animal Utilisation Distribution (UD) with respect to the collective UD of previous animals. . Their approach offers an unprecedented opportunity to evaluate and re-evaluate the minimum sample size required to estimate spatial distributions in tracking studies, and thus optimize the use of tracking devices. Furthermore, their analytical solution can give a much needed measurement of un/certainty to decision makers and managers. . You can read the manuscript describing Shimada and collaborators’ new method here. The SDLfilter R package for using their method is available here. . From the fruitful conversation during and after Taka presentation, a new feature to estimate confidence intervals has been included in his SDLfilter package. .",
             "url": "https://roam-jcu.github.io/roam-website/tracking/sample%20size/utilization%20distribution/software/guest%20speaker/shimada/2021/11/02/Guest-speaker-Dr-Taka-Shimada-and-SDLfilter.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "Paranormal Pigeons",
             "content": "Meeting 15 – (Documentary screening) Paranormal Pigeons: Why do Birds Migrate by Real Wild . . An animal’s ability to navigate long distances and revisit exact locations is a remarkable thing. For this meeting we dove into the world of homing pigeons to try to learn more about this unsolved mystery. This charming documentary going on comedy follows four main schools of thought behind the pigeons incredible homing ability. The documentary features a rag tag bunch of scientists, pigeon fanciers and a mysterious egg that continues to slowly crack, much like some of the characters in the film. We are presented with four competing hypothesis to explain pigeon navigation: a) pigeons find their way by olfactory cues, b) sight and landmarks is what helps pigeons find their way, c) pigeons have an ability to detect Earth’s magnetic fields and navigate via some kind of internal compass or d) the real explanation is ‘morphic resonance’ a sort of voodoo sixth sense that animals have for their homes that acts like an elastic band that brings them back to places they love. To find out which hypothesis stacks up the most and who gets egg on their face you can watch the documentary here and marvel at their accents and admiration for pigeons: . https://www.youtube.com/watch?v=dfM8aN7RDNc .",
             "url": "https://roam-jcu.github.io/roam-website/2021/08/10/Paranormal-Pigeons.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "How To Create A Post Using Word",
             "content": "This is a minimum example on creating a post entry using Microsoft Word. Please notice that when using a Word document there is less flexibility than when using a Markdown document or a Jupyter Notebook. . Please remember to use the name convention for all posts. This means you Word document should be named: | YYYY-MM-DD-title-of-your-post.docx . You can include titles and links in your document. | A title heading 1 . A title heading 2 . You can also include links. . .",
             "url": "https://roam-jcu.github.io/roam-website/2021/08/03/how-to-create-a-post-using-word.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "How To Update The Website",
             "content": "How to update the ROAM-JCU website . Today Ces taught us how to update the website using github . Need to know . To update the member list . _data folder . Members.yml . | Every new member indicated with [tab][-][“name:”] etc. . | Fill in details with each line . | To modify a file, pencil icon - text editor &gt; commit . | . | Images folder . People (pictures of everyone) &gt; Add files&gt; commit . | . | .   .   . To enter entries/posts . Add new entries with .md, word, or jupiter notebook file . Name convention for files “YYYY-mm-dd-the-title.extension” . | If word, add file to _word folder . | If notebook, add to _notebooks folder . | If markdown, add to _posts folder . | . | . .",
             "url": "https://roam-jcu.github.io/roam-website/2021/08/03/How-to-update-the-website.html",
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "Implications of selecting home range estimators",
             "content": "The process of using two different home range estimators on the same dataset, as we did in our last session, highlighted the real possibility of obtaining different results, and therefore different conclusions for the same data. This raised the important question about the consequences of using different methods when applying these estimates to decision making, for instance conservation. To continue the discussion on this idea, we asked you to read the paper by the authors of the AKDE function and CTMM package who delve into this topic with a more in-depth comparison of this situation and what that might mean on the ground. . Noonan, M. J., Tucker, M. A., Fleming, C. H., Akre, T. S., Alberts, S. C., Ali, A. H., … &amp; Calabrese, J. M. (2019). A comprehensive analysis of autocorrelation and bias in home range estimation. Ecological Monographs, 89(2), e01344. .",
             "url": "https://roam-jcu.github.io/roam-website/space-use/2021/07/13/implications-on-space-use-analysis-selection.html",
@@ -56,7 +67,7 @@
     
   
     
-        ,"post5": {
+        ,"post6": {
             "title": "Diving into 3rd-gen space use estimators",
             "content": "A corollary from our last meeting is that many methods for estimating space use are static and do not account for spatial or temporal autocorrelation in the data. For this reason, we were interested in learning a bit more about two of the third-generation space use estimators: the Movement-based Kernel Density Estimate (MKDE) and the Autocorrelated Kernel Density Estimate (AKDE). Both are based on similar principles of applying a movement model to our location data as the first step in generating a utilization distribution. In this meeting we worked through an example of each of these with Kyana’s tortoise data in R. .",
             "url": "https://roam-jcu.github.io/roam-website/space-use/2021/06/22/diving-into-3rd-gen-space-use-estimators.html",
@@ -67,7 +78,7 @@
     
   
     
-        ,"post6": {
+        ,"post7": {
             "title": "Space-use estimators",
             "content": "Thank you to everyone who presented at our meeting on space-use estimators. . We have compiled the presentations and now have this lovely guide to a few of the common methods (below). . One takeaway from the meeting is that many of these methods are static and do not account for spatial or temporal autocorrelation in the data. . For this reason, we are interested in learning a bit more about two of the third-generation space use estimators: the Movement-based Kernel Density Estimate (MKDE) and the Autocorrelated Kernel Density Estimate (AKDE). . Both of these are based on similar principles of applying a movement model to our location data as the first step in generating a utilization distribution. . For the next meeting we are going to work through an example of each of these with Kyana’s tortoise data in R. . Please bring your laptops with R installed, your lunch and your thinking caps. . See you there! . ROAM summary on space-use estimators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
             "url": "https://roam-jcu.github.io/roam-website/space-use/2021/06/08/space-use-estimators.html",
@@ -78,7 +89,7 @@
     
   
     
-        ,"post7": {
+        ,"post8": {
             "title": "State Space Models",
             "content": "State-space models (SSMs) are useful in better predicting “true” values of a time series. They work by using simulations to make estimates through process and measurement equations. They are useful for inferring better tracks and hidden processes (i.e. behaviour), particularly when using less accurate data (e.g. Argos locations) and/or in the marine environment. A major limitation of using them is that they are hard to validate. Dr. Marie Auger-Méthé has recorded a helpful seminar (https://www.youtube.com/watch?v=iS5xzcmhpW0) and written a review that is especially targeted towards students wanting to use SSMs: “A guide to state-space modeling of ecological time series” (Auger-Méthé et al. 2021, https://arxiv.org/abs/2002.02001). There are R tutorials included on how to fit SSMs and validate these models (our tutorial worked through Appendix 1). .",
             "url": "https://roam-jcu.github.io/roam-website/2021/05/11/State-space-models.html",
@@ -89,7 +100,7 @@
     
   
     
-        ,"post8": {
+        ,"post9": {
             "title": "Discussion Of Movement Ecology Framework Paper",
             "content": "Over the last decades the study of movement ecology has faced many challenges, including the separation of animal movement research into taxonomic groups, lack of synthesis from different geographical regions and methodologies and sampling designs. Additionally, a unified framework for movement ecology studies was missing. With the aim to unify movement studies under a common conceptual framework, Nathan et al. 2008 proposed a movement ecology paradigm based on principle components of animal and plant movement. This includes how the organism moves, when and towards what destination the movement occurs, why the organism moves and the interaction of these components. Establishing a unified theoretical framework for animal movement studies, that synthesizes different aspects of individual movement and general theory of animal movement research has resulted in a well-known and well-cited manuscript which provides a great baseline for anyone interested in animal movement ecology.  . R. Nathan, W.M. Getz, E. Revilla, M. Holyoak, R. Kadmon, D. Saltz, P.E. Smouse A movement ecology paradigm for unifying organismal movement research Proc. Natl. Acad. Sci., 105 (49) (2008), pp. 19052-19059 .",
             "url": "https://roam-jcu.github.io/roam-website/2021/03/23/Discussion-of-movement-ecology-framework-paper.html",
@@ -100,7 +111,7 @@
     
   
     
-        ,"post9": {
+        ,"post10": {
             "title": "Introduction to Movebank and MoveVis",
             "content": "In our fourth meeting, Kyana introduced Movebank - a free online database and platform for analysing animal movement data. We learnt how Movebank can be used to manage and archive our data, while giving users have the choice to make their data publicly available or not. Kyana showed us how to view and download publicly available data and introduced some of the analysis tools that are available on the online platform. . In the second half of the session Emily demonstrated an example of MoveVis in R, a package for creating animations from tracking data. MoveVis is a visualisation tool that converts movement data into ggplot2 frames that can be rendered into a moving gif or video. .",
             "url": "https://roam-jcu.github.io/roam-website/tools/2021/03/16/Introduction-to-Movebank-and-Movevis.html",
@@ -111,7 +122,7 @@
     
   
     
-        ,"post10": {
+        ,"post11": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . data &lt;- read.csv(&quot;data.csv&quot;) . YEAR-MONTH-DAY-filename.md . italics . bold . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Footnotes . This is the footnote. &#8617; . |",
             "url": "https://roam-jcu.github.io/roam-website/markdown/2020/01/14/test-markdown-post.html",
