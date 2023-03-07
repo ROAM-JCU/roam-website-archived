@@ -39,8 +39,7 @@ baseurl: "/roam-website" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-#    twitter:
-    github: ROAM-JCU
+    - { platform: github, user_url: "https://github.com/ROAM-JCU/" }
 
 # Set this to true to get LaTeX math equation support
 use_math: 
@@ -100,7 +99,7 @@ plugins:
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/minima@v2.5.1
+remote_theme: jekyll/minima
 
 titles_from_headings:
   enabled:     true
